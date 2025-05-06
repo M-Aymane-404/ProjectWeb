@@ -1,0 +1,68 @@
+.cadre{
+    margin-top: 20%;
+
+
+}
+
+.container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 35px;
+
+}
+
+    button{
+    width: 100%;
+    border-radius: 30%;
+    background-color: rgb(18, 113, 255);
+
+    height: 100%;
+}
+
+.next{
+     width: 100px;
+height: 40px;
+}
+.prev{
+    width: 100px;
+    height: 40px;
+}
+.cercle0 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: blue solid ;
+}
+
+.cercle1,.cercle2,.cercle3{
+    border: #e0e0e0 solid ;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+
+}
+.ligne1,.ligne2,.ligne3{
+    border:#e0e0e0 solid ;
+    width: 100px;
+
+}
+
+
+.space{
+    margin-left:5px ;
+    margin-right: 5px;
+}
+
+.active{
+    border: blue solid ;
+
+
+}
+
+
+
+

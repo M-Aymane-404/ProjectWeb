@@ -20,6 +20,7 @@ next.addEventListener('click', () => {
         i = 1;
         cercle1.classList.add('active');
         ligne1.classList.add('active');
+        prev.classList.remove("btnFinal")
 
            
 
@@ -33,6 +34,7 @@ next.addEventListener('click', () => {
         cercle3.classList.add('active')
         ligne3.classList.add('active')
         i = 3;
+        next.classList.add("btnFinal")
 
         }
 
@@ -49,6 +51,7 @@ prev.addEventListener('click', () => {
     cercle1.classList.remove('active');
     ligne1.classList.remove('active');
     i--;
+    prev.classList.add("btnFinal")
     
 
 
@@ -63,6 +66,7 @@ prev.addEventListener('click', () => {
 
     cercle3.classList.remove('active')
     ligne3.classList.remove('active')
+    next.classList.remove("btnFinal")
   
     i = 2;
 

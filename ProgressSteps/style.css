@@ -16,7 +16,6 @@
 
     button{
     width: 100%;
-    border-radius: 30%;
     background-color: rgb(18, 113, 255);
 
     height: 100%;
@@ -60,6 +59,22 @@ height: 40px;
 .active{
     border: blue solid ;
 
+
+}
+
+.btnFinal{
+    background-color: #e0e0e0;
+}
+
+footer{
+    border: solid;
+    height: 50px;
+    padding-left: 45%;
+    background-color: black;
+    margin-top: 19%;
+}
+footer p {
+    color: aliceblue;
 
 }
 
